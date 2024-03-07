@@ -63,6 +63,24 @@ font-family: 'Poppins', sans-serif;
     overflow: hidden; 
 }
 
+#downloadResumeBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e57df7;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   
+    text-align: center;
+    line-height: 40px; /* Kohandage vastavalt oma nupu kõrgusele */
+    width: 200px;
+}
+
+#downloadResumeBtn:hover {
+    background-color: #eba1f8;
+}
 
 
 .descr_design {

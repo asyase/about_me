@@ -124,4 +124,11 @@ $(document).ready(function(){
         });
 
 });	
+
+document.getElementById("downloadResumeBtn").addEventListener("click", function() {
+	var link = document.createElement("a");
+	link.href = "assets/download/Anastasija_Selevjorstova_Resume.pdf"; // Muuda faili asukohta ja nime vastavalt vajadusele
+	link.download = "Anastasija_Selevjorstova_Resume.pdf";
+	link.click();
+});
 	
